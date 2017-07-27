@@ -1,0 +1,23 @@
+{
+  "name": "todo_api",
+  "version": "1.0.0",
+  "description": "todo app using mongoDB, node.js, express && handlebars JS\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afflatus480/todo_api.git"
+  },
+  "author": "Robert Zobrist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afflatus480/todo_api/issues"
+  },
+  "homepage": "https://github.com/afflatus480/todo_api#readme",
+  "dependencies": {
+    "mongodb": "^2.2.30"
+  }
+}
