@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/afflatus480/todo_api#readme",
   "dependencies": {
-    "mongodb": "^2.2.30"
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.30",
+    "mongoose": "^4.11.5"
   }
 }
