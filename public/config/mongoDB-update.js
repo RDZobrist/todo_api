@@ -9,6 +9,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
                 return console.log('Unable to connect to MongoDB server');
             }
             console.log('Connected To MongoDB server');
+            
 // find entry in User collection with a specified id, update name, and change age by inceementing by one
             db.collection('User').findOneAndUpdate({
                     _id: new ObjectID("597953765f687b1438245677")
